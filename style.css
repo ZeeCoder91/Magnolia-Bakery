@@ -16,3 +16,19 @@ header {
       font-family: sans-serif;
       text-transform: uppercase;
 }
+
+a:link.nav-link {
+    text-decoration: none;
+    color: rgb(77, 42, 5);
+}
+
+a:link.menu-link {
+    text-decoration: none;
+    color: rgb(77, 42, 5);
+}
+
+.hero-img-p {
+    width: 100%;
+    padding: 300px 0;
+    background-image: url(img/Cookie_Sampler__25_2048x.jpg);
+}
