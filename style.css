@@ -39,12 +39,14 @@ ul {
     list-style-type: none;
 }
 .nav-main {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
     border: solid 3px grey;
     padding-bottom: 3px;
+    position: relative;
+    top: 20;
 }
 
 .nav-left-list {
@@ -71,8 +73,9 @@ ul {
     border: solid 2px pink;
     margin: 0;
     background-image: url(img/magnolia-bakery-logo.svg);
+    background-repeat: no-repeat;
     text-indent: -99999999px;
-    width: 300px;
+    width: 140px;
     padding: 17px 0;
 }
 
