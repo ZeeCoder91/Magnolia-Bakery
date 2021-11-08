@@ -2,6 +2,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     color: rgb(77, 42, 5);
+    font-family: libre-franklin, sans-serif;
+    font-style: normal;
 }
 
 header {
@@ -14,23 +16,22 @@ header {
 .header-p {
       margin-bottom: 1px;
       position: relative;
+      top: -6;
       font-family: sans-serif;
       text-transform: uppercase;
 }
 
-a:link.nav-link {
-    text-decoration: none;
+a {
     color: rgb(77, 42, 5);
-}
-
-a:link.menu-link {
+    text-transform: uppercase;
     text-decoration: none;
-    color: rgb(77, 42, 5);
 }
 
 .hero-img-p {
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    padding: 300px 0;
+    padding: 350px 0;
     background-image: url(img/Cookie_Sampler__25_2048x.jpg);
 }
 
@@ -43,7 +44,6 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border: solid 3px grey;
     padding-bottom: 3px;
     position: relative;
     top: 20;
@@ -53,29 +53,34 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 80%;
-    border: solid 2px pink;
     margin-left: 200px;
+    position: relative;
+    top: -10;
     
 }
 
 .nav-right {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
     width: 30%;
     margin-right: 100px;
-    border: solid 1px pink;
+    text-transform: uppercase;
+    position: relative;
+    top: -10;
 }
 
 /* Logo */
 
 .logo   {
-    border: solid 2px pink;
     margin: 0;
     background-image: url(img/magnolia-bakery-logo.svg);
     background-repeat: no-repeat;
     text-indent: -99999999px;
     width: 140px;
     padding: 17px 0;
+    position: relative;
+    top: -15;
+    left: 60;
 }
 
