@@ -10,7 +10,7 @@ header {
     background-color: rgb(219, 234, 233);
     font-size: .8rem;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 4px;
 }
 
 .header-p {
@@ -19,6 +19,7 @@ header {
       top: -6;
       font-family: sans-serif;
       text-transform: uppercase;
+      color: rgb(124, 58, 0);
 }
 
 a {
@@ -27,12 +28,58 @@ a {
     text-decoration: none;
 }
 
-.hero-img-p {
+.hero-img {
     background-position: center;
     background-size: cover;
     width: 100%;
     padding: 350px 0;
-    background-image: url(img/Cookie_Sampler__25_2048x.jpg);
+    background-image: url(img/Cookie_Sampler_5_3_e5af9245-8c8e-407e-9a8b-8723ec0b77ec_2048x.webp);
+}
+
+.hero-container {
+    padding: 40px;
+    position: relative;
+    max-width: 100%;
+    width: 385px;
+    margin-left: 116px;
+}
+.hero-content {
+    background: hsla(0,0%,100%,.75);
+    opacity: .8;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.hero-h2 {
+    font-size: 48px;
+    font-family: serif ;
+    font-weight: 100;
+    line-height: 59px;
+    margin: 0 0 8px;
+}
+
+.hero-p {
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 600px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.hero-button {
+    background-color: rgb(196, 218, 209);
+    border-radius: 20px;
+    color: rgb(77, 42, 5);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 20px 10px 0;
+    text-align: center;
+    padding: 12px 50px;
+
 }
 
 /* Navigation*/
@@ -44,7 +91,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 26px;
     position: relative;
     top: 20;
 }
@@ -68,6 +115,16 @@ ul {
     text-transform: uppercase;
     position: relative;
     top: -10;
+}
+
+.nav-icons {
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 55px;
+}
+
+i {
+    margin-left: 11px;
 }
 
 /* Logo */
