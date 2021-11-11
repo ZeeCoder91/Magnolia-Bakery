@@ -55,7 +55,7 @@ a {
 
 .hero-h2 {
     font-size: 48px;
-    font-family: serif ;
+    font-family: serif;
     font-weight: 100;
     line-height: 59px;
     margin: 0 0 8px;
@@ -139,5 +139,33 @@ i {
     position: relative;
     top: -15;
     left: 60;
+}
+
+/* Content */
+
+.main-content {
+    width: 85%;
+    padding: 20px 0 0 255px;
+    margin: 0 auto;   
+}
+
+.h2-content {
+    font-size: 48px;
+    font-family: serif;
+    font-weight: lighter;
+    line-height: 59px;
+    margin: 0 0 8px;
+   
+}
+
+.our-prod {
+    margin: 0 auto;
+    
+}
+
+.p-our-prod {
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
 }
 
