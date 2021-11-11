@@ -157,7 +157,7 @@ i {
     margin: 0 0 8px;
    
 }
-
+   /* our products */
 .our-prod {
     margin: 0 auto;
     
@@ -167,5 +167,26 @@ i {
     width: 60%;
     font-size: 20px;
     line-height: 30px;
+}
+
+.view-more-prod{
+    text-decoration: underline ;
+    font-size: 20px;
+    
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
 }
 
