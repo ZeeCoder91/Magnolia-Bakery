@@ -172,17 +172,18 @@ i {
     font-size: 18px;
     line-height: 30px;
     margin-top: 0;
+    padding-bottom: 50px;
 }
 
 .view-more {
     text-decoration: underline ;
     font-size: 20px;
-    
 }
 
 .product-gallery {
     display: flex;
     justify-content: flex-start;
+    
 }
 
 img {
@@ -204,8 +205,11 @@ img {
 }
 
 /* Treats Gallery */
-
+.p-treats {
+    padding-bottom: 50px;
+}
 .treats-gallery {
     background-color: rgb(251, 248, 242);
-    padding-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
