@@ -260,3 +260,11 @@ img {
 .menu-link{
     color: white;
 }
+
+.footer-menu {
+    margin-left: -45;
+}
+
+.footer-right {
+    margin-right: 200px;
+}
