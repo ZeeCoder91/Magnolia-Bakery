@@ -204,6 +204,13 @@ img {
     width: 200px;
 }
 
+.img-cards {
+    width: 424px;
+    height: 500px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
 /* Treats Gallery */
 .p-treats {
     padding-bottom: 50px;
@@ -216,4 +223,20 @@ img {
 
 .delivery-gallery {
     padding-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: rgb(251, 248, 242);
+}
+
+.img-catering {
+    background-image: url(img/catering.webp);
+    background-position: center;
+    object-fit: cover;
+    padding: 292px 105px;
+    width: 100%;
 }
