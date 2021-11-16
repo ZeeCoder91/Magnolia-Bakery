@@ -141,6 +141,17 @@ i {
     left: 60;
 }
 
+.logo01 {
+    background-image: url(img/logo-1.png);
+    background-repeat: no-repeat;
+    color: white;
+    width: 200px;
+    position: relative;
+    top: 2;
+    background: solid 2px blue;
+
+}
+
 /* Content */
 
 .main-content {
@@ -250,6 +261,12 @@ img {
 
 /* footer */
 
+.horizontal-logo {
+    width: 20%;
+    object-fit: cover;
+    padding: 0 50px;
+}
+
 .footer-nav {
     background-color: rgb(77, 42, 5);
     color: white;
@@ -260,7 +277,9 @@ img {
 .menu-link{
     color: white;
 }
-
+.menu-list-link {
+    padding-bottom: 20px;
+}
 .footer-menu {
     margin-left: -45;
 }
