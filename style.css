@@ -223,6 +223,7 @@ img {
 
 .delivery-gallery {
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .row {
@@ -239,4 +240,23 @@ img {
     object-fit: cover;
     padding: 292px 105px;
     width: 100%;
+}
+
+.newsletwrapper {
+    background-color: rgb(251, 248, 242);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* footer */
+
+.footer-nav {
+    background-color: rgb(77, 42, 5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link{
+    color: white;
 }
