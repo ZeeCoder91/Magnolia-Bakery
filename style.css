@@ -101,7 +101,6 @@ ul {
     padding-top: 27px;
     position: relative;
     top: -1;
-    border: solid 2px blue;
 }
 
 .nav-left-list {
@@ -110,9 +109,7 @@ ul {
     width: 80%;
     margin-left: 200px;
     position: relative;
-    top: -10;
-    border: solid 2px red;
-    
+    top: -10;    
 }
 
 .nav-right {
